@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    /* font-family: "Poppins", sans-serif; */
+}
+body{
+    background-color: white;
+}
+
+/* .box-1 {
+    background-color: aqua; 
+  } */
+
+
+
+  /* header design :start */
+
+.header{
+    background-color: rebeccapurple;
+    color: white;
+    height: 80px;
+}
+.header-component{
+    width: 600px;
+  margin: auto;
+    /* background-color: blue; */
+    padding: 10px 0 10px 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-component div img{
+    height: 80px;
+    width: 50px;
+}
+
+.img{
+    display: flex;
+
+}
+
+.nav-item ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: speace around; */
+}
+.nav-item ul li{
+    margin-left: 15px;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color:blue ;
+}
+
+/* header design :end */
+
+
+/* main section start */
+
+.section-body{
+    background-color: blueviolet;
+}
+
+/* .Top-Player{
+   display: grid; 
+   grid-template-columns: repeat(3, 4fr);
+   .player img {
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+} */
+.top-player-and-top-blog{
+    width: 700px;
+    height: 10px;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    /* padding-top: 60px; */
+
+}
+.top-player-and-top-blog h2{
+    color: blue;
+    /* width: 70px; */
+    /* height: 70px; */
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+player{
+    display: flex;
+    align-items: center;
+}
+.player img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+.player p{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.top-blog h2{
+    margin-top: 10px;
+
+}
+.top-blog{
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+    margin-top: 20px;
+
+}
+.blog{
+    display: flex;s
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.blog img{
+    width: 200px;
+}
+.blog p{
+    margin-left: 15px;
+    font-weight: blod;
+    font-family: 'Health Script',cursive;
+}
+
+/* main section end */
