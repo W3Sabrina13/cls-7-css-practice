@@ -57,7 +57,7 @@ body{
 /* main section start */
 
 .section-body{
-    background-color: blueviolet;
+    background-color: white;
 }
 
 /* .Top-Player{
@@ -80,10 +80,11 @@ body{
     background-color: white;
     margin-top: 50px;
     border-radius: 5px;
+    margin-bottom: 20px;
     /* padding-top: 60px; */
 
 }
-.top-player-and-top-blog h2{
+.player-title{
     color: blue;
     /* width: 70px; */
     /* height: 70px; */
@@ -94,7 +95,7 @@ body{
     grid-gap: 30px;
     margin-top: 50px;
 }
-player{
+.player{
     display: flex;
     align-items: center;
 }
@@ -114,13 +115,18 @@ player{
 
 }
 .top-blog{
-    display: grid;
-    grid-template-columns: repeat(2,6fr);
     margin-top: 20px;
 
 }
+
+.types{
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+    grid-gap: 30px;
+    margin-top: 20px;
+}
 .blog{
-    display: flex;s
+    display: flex;
     align-items: center;
     margin-bottom: 15px;
 
@@ -128,11 +134,51 @@ player{
 
 .blog img{
     width: 200px;
+    height: 100px;
 }
 .blog p{
     margin-left: 15px;
     font-weight: blod;
     font-family: 'Health Script',cursive;
 }
+
+.latest-courses{
+    width: 700px; 
+    height: 10px;   
+    margin: auto;
+    padding: 20px;
+    font-family: "poppins", sans-serif;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+}
+
+.latest-courses h1{
+    color: blue;
+}
+
+.course-img img{
+width: 150px;
+height: 150px;
+border-radius: 10px;
+}
+
+
+.card{
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.courses{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
 
 /* main section end */
